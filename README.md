@@ -10,10 +10,13 @@ Este es un clásico juego de adivinar palabras implementado en Python. El progra
 * **Contador de intentos:** Se limita el número de intentos para adivinar la palabra.
 * **Mensaje de victoria o derrota:** Al final del juego, se muestra un mensaje indicando si el jugador ha ganado o perdido.
 
-## Cómo jugar
-1. **Ejecutar el código:** Ejecuta el script de Python en tu terminal.
-2. **Adivinar letras:** Ingresa una letra cada vez que se te solicite.
-3. **Repetir:** Continúa adivinando letras hasta que adivines la palabra completa o se agoten los intentos.
+## Tecnologías Utilizadas
+* **Python:** Lenguaje de programación principal utilizado para desarrollar el juego.
+* **Librería `random`:** Se utiliza para seleccionar aleatoriamente una palabra de la lista.
+* **Estructuras de datos:** Se emplean listas para almacenar la palabra a adivinar, las letras adivinadas y el progreso del juego.
+* **Condicionales y bucles:** Se utilizan `if`, `else` y `while` para controlar el flujo del programa.
+* **Funciones:** Se define una función para modularizar el código y mejorar la legibilidad.
+* **Entrada y salida:** Se utiliza `input()` para recibir la entrada del usuario y `print()` para mostrar la salida.
 
 ## Aprendizajes clave
 * **Estructuras de datos:** Uso de listas para almacenar palabras, letras adivinadas y la palabra a adivinar.
@@ -23,3 +26,10 @@ Este es un clásico juego de adivinar palabras implementado en Python. El progra
 * **Conjuntos:** Empleo de conjuntos para almacenar letras ya intentadas y evitar repeticiones.
 * **Manejo de cadenas:** Manipulación de cadenas de texto para mostrar la palabra a adivinar y el progreso del juego.
 * **Randomización:** Uso de la librería `random` para seleccionar palabras aleatorias.
+
+## Cómo jugar
+1. **Ejecutar el código:** Ejecuta el script de Python en tu terminal.
+2. **Adivinar letras:** Ingresa una letra cada vez que se te solicite.
+3. **Repetir:** Continúa adivinando letras hasta que adivines la palabra completa o se agoten los intentos.
+
+
